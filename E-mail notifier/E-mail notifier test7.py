@@ -2,7 +2,7 @@ import imaplib, serial #import modules
 
 sercomm = serial.Serial('COM3', 9600) #serial object
 obj = imaplib.IMAP4_SSL('imap.gmail.com') #create imap object, set to gmail
-obj.login('burakalbeni@gmail.com', 'sedatpeker41') #credentials
+obj.login('burakalbeni@gmail.com', '********') #credentials
 
 #runs continuously 
 while 1: 
